@@ -72,15 +72,16 @@ int main()
     plt::grid(true);
     plt::show();
 
-    // Modify some data and plot again, reusing the time array:
-    for (size_t i=0; i<n; i++) data[i]=i*i-3.0;
+    // // Modify some data and plot again, reusing the time array:
+    // for (size_t i=0; i<n; i++) data[i]=i*i-3.0;
 
-    // plt::plot((PyListObject*) tarray, data);
-    plt::plot(tarray, data);
-    plt::xticks({{"rotation", "20"}});
-    plt::title("Quadratic");
-    plt::grid(true);
-    plt::show();
+    // // plt::plot((PyListObject*) tarray, data);
+    // plt::plot(tarray, data);
+    // plt::xticks({{"rotation", "20"}});
+    // plt::title("Quadratic");
+    // plt::grid(true);
+    // plt::show();
+
 
     // Unfortunately, we have to call the DateTimeList destructor explicitly
     // for now, because the destructor needs an interpreter, which we kill

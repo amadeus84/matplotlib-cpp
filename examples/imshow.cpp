@@ -1,5 +1,5 @@
 //
-// g++ -g -Wall -o imshow $(python-config --includes) imshow.cpp $(python-config --ldflags --embed)
+// g++ -g -Wall -std=c++20 -o imshow $(python-config --includes) imshow.cpp $(python-config --ldflags --embed)
 //
 
 #define _USE_MATH_DEFINES

@@ -1,6 +1,6 @@
 //
-// g++ -g -Wall -o basic -I/usr/include/python3.9 basic.cpp -lpython3.9
-// g++ -g -Wall -o basic $(python-config --includes) basic.cpp $(python-config --ldflags --embed)
+// g++ -g -Wall -std=c++20 -o basic -I/usr/include/python3.9 basic.cpp -lpython3.9
+// g++ -g -Wall -std=c++20 -o basic $(python-config --includes) basic.cpp $(python-config --ldflags --embed)
 //
 
 #define _USE_MATH_DEFINES
